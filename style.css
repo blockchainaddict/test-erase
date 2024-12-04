@@ -1,3 +1,10 @@
 body{
-    background-color: rgb(0, 255, 255);
+    background-color: hsl(228deg 4.2% 23.33%);
+
+}
+
+form {
+    border: 5px solid white;
+    border-radius: 10px;
+
 }
