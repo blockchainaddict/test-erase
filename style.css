@@ -5,13 +5,24 @@
 }
 
 body{
-    background-color: hsl(228deg 4.2% 23.33%);
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-background {
+    background-color:  hsl(228deg 4.2% 23.33%);
+    width: 60%;
+    height: 45%;
 }
 
 form {
     border: 5px solid white;
     border-radius: 10px;
     background-color: white;
+    
 }
 
 .label-input {
