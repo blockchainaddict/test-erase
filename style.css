@@ -54,9 +54,22 @@ form {
 .label-input {
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
 }
 
 
 input {
     padding: .3rem;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(211.43deg 100% 50.59%);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
 }
